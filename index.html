@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -10,149 +11,201 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
 </head>
-<body>
-  <div id="wrapper">
-    <div class="header" id="header">
-      <div class="header-top">
-        <nav id="tf-menu" class="header-menu navbar-default stick">
-          <div class="container">
-            <div class="conten-top">
-              <ul class="hed-menus">
-                <li><a href="#header"><i class="fas fa-home"></i>TOP</a></li>
-                <li><a href="#tf-intro"><i class="fas fa-user"></i>Profile</a></li>
-                <li><a href="#tf-portfolio"><i class="lst icon"></i>Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="container">
-          <div class="conte">
-            <section id="section00">
-            <h1 class="page-title">Kosuke's Portfolio</h1>
-          </section>
-            <h3>Rubyを</h3>
-           
-          </div>
+
+<body> 
+  <div class="menu-list">
+    <div class="menu-toggle">
+      <i class="fas fa-bars" ></i>
+    </div>
+      <ul class="sidebar-nav">
+        <li class="sidebar-list">
+          <a class="js-scroll" href="#header">TOP</a>
+        </li>
+        <li class="sidebar-list">
+          <a class="js-scroll" href="#content">Profile</a>
+        </li>
+        <li class="sidebar-list">
+          <a class="js-scroll" href="#myskill">My Skill</a>
+        </li>
+        <li class="sidebar-list">
+          <a class="js-scroll" href="#workport">Portfolio & Works</a>
+        </li>
+        <li class="sidebar-list">
+          <a class="js-scroll" href="#contact">Contact</a>
+        </li>
+      </ul>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="conte">
+        <h1 class="page-title">Kosuke Inukai's Portfolio</h1>
+        <h3>Rubyを</h3>
+        <div class="alss">
+          <a class="js-scroll" href="#content">連絡先</a>
         </div>
       </div>
     </div>
-    <div class="tf-intro" id="tf-intro">
-   <div class="containers">
-    <section id="section01">
-      <div class="section-inner">
-        <h1>プロフィール</h1>
+  </header>
+
+  <div class="content" id="content" >
+    <div class="maincontainer">
+      <div class="mainlist">
+        <div class="mainsss">
+          <div class="content-section-heading">
+            <h3>プロフィール</h3>
+            <h2>自己紹介</h2>
+          </div>
+        <div class="row">
+          <div class="rowleft">
+            <div class="profileimg">
+              <img src="image/kosukeImg.jpg" class="profImg" height="200px" width="200px">
+            </div>
+          </div>
+          <div class="roeright">
+            <div class="rightname">
+              <div class="rightrow">
+                <div class="cell">名前</div>
+                <div class="cell">犬飼宏輔</div>
+              </div>
+              <div class="rightrow">
+                <div class="cell">年齢</div>
+                <div class="cell">23</div>
+              </div>
+              <div class="rightrow">
+                <div class="cell">経歴</div>
+                <div class="cell">
+                  <ul>
+                    <li>2019年3月 中京大学卒業</li>
+                    <li>2019年4月 某IT企業のシステムエンジニア</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="rightrow">
+                <div class="cell">出身地</div>
+                <div class="cell">愛知県</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="alss">
+          <a class="js-scroll" href="#myskill">スキル</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="myskill" id="myskill">
+    <div class="skillcontent">
+      <h3 class="skilltop">My Skill</h3>
+      <h2 class="slillbottom">言語</h2>
+    </div>
+      <ul>
+        <li class="aaa">
+          <p>HTML&CSS</p>
+        </li>
+        <li class="aaa">
+          <p>javascript</p>  
+        </li>
+        <li class="aaa">
+          <p>jquery</p>
+        </li>
+        <li class="aaa">
+          <p>Ruby</p>
+        </li>
+        <li class="aaa">
+          <p>Ruby on Rails</p>
+        </li>
+        <li class="aaa">
+          <p>Java</p>
+        </li>
+        <li class="aaa">
+          <p>VBA</p>
+        </li>
+        <li class="aaa">
+          <p>SQL</p>
+        </li>
+        <li class="aaa">
+          <p>AWS</p>
+        </li>
+        <li class="aaa">
+          <p>Haml</p>
+        </li>
+        <li class="aaa">
+          <p>Scss</p>
+        </li>
+        <li class="aaa">
+          <p>github</p>
+        </li>
+        <li class="aaa">
+          <p>MOS Excel</p>
+        </li>
+        <li class="aaa">
+          <p>MOS Word</p>
+        </li>
+      </ul>
+      <div class="alss">
+        <a class="js-scroll" href="#workport">ポートフォリオ</a>
+      </div>
+  </div>
+  <div class="workport" id="workport">
+    <div class="workcontent">
+      <h3 class="worktop">Portfolio & Works</h2>
+    </div>
+    <hr>
+  
+    <div class="Profilerow">
+      <div class="port-list">
+        <div class="port1">
+          <a href="#" target="blank"><img src="image/KStargram.png" class="app_imgs" height="300px" width="300px"></a> 
+        </div>
+        <div class="port1-list">
+          <h3>KStargram</h3>
+        </div>
+      </div>
+      <div class="port-list">
+        <div class="port1">
+          <a href="#" target="blank"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
+        </div>
+          <h3>フリマサイト</h3>
+    </div>
+    <div class="port-list">
+      <div class="port1">
+        <a href="＃" target="blank"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
+      </div>
+      <div class="port1-list">
+        <h3>ポートフォリオサイト</h3>
+      </div>
+    </div>
+    </div>
+    
+      <div class="alss">
+        <a class="js-scroll" href="#contact">連絡先</a>
+      </div>
+  </div>
+
+
+  <div class="contact" id="contact">
+    <div class="contactist">
+      <div class="section-title">
+        <h3>Contact</h3>
+        <h2>お問い合わせ・SNS</h2>
         <hr>
       </div>
-    </section>
-  
-    <div class="contents">
-      <section id="section02" class="area">
-        <div class="section-inner">
-            <div class="section02-inner">
-              <div class="innerleft">
-                <img src="image/kosukeImg.jpg" class="profImg" height="200px" width="200px">
-              </div>
-              <div class="innerright">
-                <table class="wMax">
-                  <tbody>
-                    <tr>
-                      <td class="w100">Name</td>
-                      <td>犬飼 宏輔(Inukai Kosuke)</td>
-                    </tr>
-                    <tr>
-                      <td class="w100">生年月日</td>
-                      <td>1996年6月25日</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        
-      </section>
     </div>
-  </div>
-  </div>
-      <section id="section03" class="area">
-        <div class="section-inner">
-          <h2>My Skill</h2>
-          <div class="bodyskill">
-            
-          </div>
-
-         
-        </div>
-      </section>
-      <div class="tf-portfolio" id="tf-portfolio">
-        <div class="containera">
-          <div class="section-title">
-            <h3>Portfolio & Works</h3>
-            <hr>
-          </div>
-          <div class="Profilerow">
-            <div class="port1">
-              <a href="#" target="blank"><img src="image/KStargram.png" class="app_imgs" height="300px" width="300px"></a> 
-            </div>
-            
-            
-            <div class="port1">
-              <a href="#" target="blank"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
-            </div>
-            <div class="port1">
-              <a href="＃" target="blank"><img src="image/a.jpg" class="app_img" height="300px" width="300px"></a>
-            </div>
-          </div>
-          <!-- <div class="port-sitediv">
-            <div class="port1-div">
-              <h3>KStargram</h3>
-              <table class="table">
-                <tbody>
-                  <tr class="url1">
-                    <th>URL</th>
-                    <td><a href="#" target="blank">http</a></td>
-                  </tr>
-                  <tr class="desc">
-                    <th>説明</th>
-                    <td><a href="#" target="blank">ファッションコーディネートアプリです</a></td>
-                  </tr>
-                  <tr class="url1">
-                    <th>使用言語</th>
-                    <td>HTML&CSS</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>   -->
-            <!-- <a href="#" target="blank"></a>  -->
-         </div>
-        </div>
+      <div class="contact-list">
+        <ul class="iconfooter">
+          <li>
+            <a href="https://github.com/kdog0625"><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="https://qiita.com/DogK0625">Q</a>
+          </li>
+          <li>
+            <a href="mailto:aaa@gmail.com"><i class="far fa-envelope"></i></a>
+          </li>
+        </ul>
       </div>
-      
-      
-      <div class="contact" id="contact">
-        <h2>Contact</h2>
-        <div class="ssss">
-          aaaaa@gmail.com
-        </div>
-        <div class="vvvv">or</div>
-        <div class="vwaa">
-          <ul class="ssaa">
-            <li>
-              <a href="https://github.com/kdog0625"><i class="fab fa-github"></i></a>
-            </li>
-            <li>
-              <a href="https://qiita.com/DogK0625"></a>
-            </li>
-          </ul>
-        </div>
-          <div class="aaaa">
-            ご意見、ご感想、ご依頼など、お気軽にご連絡いただければ幸いです。よろしくお願いいたします。
-          </div>       
-      </div>
-    
-  
-    <footer></footer>
   </div>
-  
 </body>
 </html>
