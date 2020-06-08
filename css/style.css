@@ -61,7 +61,7 @@ margin-left: 10px;
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: url(../image/article.jpeg);
+    background: url(../image/article.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -117,8 +117,8 @@ margin-left: 10px;
     margin-left: -15px;
 }
 .mainsss{
-  margin-left: auto!important;
-  margin-right: auto!important;
+  margin-left: auto;
+  margin-right: auto;
   flex: 0 0 83.333333%;
     max-width: 83.333333%;
     position: relative;
@@ -127,9 +127,7 @@ margin-left: 10px;
     padding-right: 15px;
     padding-left: 15px;
 }
-.content-section-heading{
 
-}
 .content-section-heading h3{
   font-size: 1rem;
     text-transform: uppercase;
