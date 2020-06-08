@@ -61,7 +61,7 @@ margin-left: 10px;
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: url(../image/article.png);
+    /* background: url(image/article.png); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
