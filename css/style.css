@@ -186,37 +186,6 @@ margin-left: 10px;
     border-bottom: #757575 1px solid;
     padding: 10px 0;
 }
-.alss{
-  margin-left: auto;
-    margin-right: auto;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.alss a{
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
-    font-weight: 700;
-    color: #fff;
-    padding: 1.25rem 2.5rem;
-    background-color: #343a40;
-    border-color: #343a40;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    text-decoration: none;
-}
 .profImg{
     width: 70%;
     height: 70%;
