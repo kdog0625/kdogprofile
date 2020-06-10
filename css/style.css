@@ -114,7 +114,7 @@ margin-left: 10px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin: 0 auto;
+   margin: 0 auto;
 }
 .mainlist{
   display: flex;
@@ -346,6 +346,13 @@ hr{
     color: #5D9FFF;
 }
 
+.contact-list{
+  width: 960px;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .iconfooter{
   padding-bottom: 3rem;
