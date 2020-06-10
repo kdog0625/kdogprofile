@@ -114,8 +114,7 @@ margin-left: 10px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 .mainlist{
   display: flex;
@@ -202,6 +201,7 @@ margin-left: 10px;
   padding-bottom: 7%;
   text-align: center;
   background-color: #f6f6f6;
+  margin: 0 auto;
 }
 .myskill ul{
   max-width: 800px;
@@ -247,7 +247,7 @@ margin-left: 10px;
   padding-bottom: 7%;
   text-align: center;
   background: url(../image/so-white.png);
-  
+  margin: 0 auto;
 }
 hr{
   width: 60px;
@@ -320,6 +320,7 @@ hr{
   padding-bottom: 2%;
   width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 .contactist{
   width: 960px;
@@ -351,6 +352,7 @@ hr{
   padding-left: 0;
   list-style: none;
   background-color: #f8f9fa;
+  text-align: center;
 }
 .iconfooter li{
   margin: 0 auto;
@@ -417,4 +419,5 @@ background-color: #AAAAAA;
   letter-spacing: 2px;
   padding: 50px 0;
   color: #fff;
+  margin: 0 auto;
 }
