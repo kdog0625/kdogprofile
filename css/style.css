@@ -13,9 +13,11 @@ html {
     height: 50px;
     text-align: center;
     color: #fff;
-    background: rgba(52, 58, 64, .5);
+    /* background: rgba(52, 58, 64, .5); */
+    background-color: gray;
     line-height: 50px;
     z-index: 999;
+    opacity: 0.7;
 }
 .sidebar-nav{
   display: none;
@@ -29,7 +31,7 @@ html {
   height: 100vh;
     z-index: 2;
     transform: translateX(250px);
-    background: #222222;
+    background-color: gray;
     border-left: 1px solid rgba(255, 255, 255, .1);
     opacity: 0.7;
 }
@@ -45,7 +47,8 @@ html {
     color: #3B3C3D;
 }
 .sidebar-list:hover{
-  background: rgba(58, 62, 68, .3);
+  /* background: rgba(58, 62, 68, .3); */
+  background-color:black;
 }
 .sidebar-list a{
 text-decoration: none;
@@ -62,12 +65,12 @@ margin-left: 10px;
     padding-top: 8rem;
     padding-bottom: 8rem;
     background-color: wheat;
-    /* background: url(image/article.png); */
+    background: url(../image/singapore.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #cfcfcf;
+    color: #fff;
 }
 .container{
   width: 970px;
@@ -75,18 +78,18 @@ margin-left: 10px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
 }
 .conte{
   padding: 15% 0 18% 0;
   text-align: center;
  
 } 
-.page-title h1{
+.page-title{
   text-transform: none;
-}
- h1{
+  font-size: large;
   text-transform: none;
-  font-size: 36px;
+  font-size: 50px;
   margin-top: 20px;
     margin-bottom: 10px;
     font-family: inherit;
@@ -94,13 +97,14 @@ margin-left: 10px;
     line-height: 1.1;
     color: inherit;
     margin: .67em 0;
-} 
+}
+
 
 .content{
   color: #ecb807;
   padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #f8f9fa;
+    /* padding-bottom: 20px; */
+    background-color: #fff;
 }
 .maincontainer{
   text-align: center;
@@ -132,7 +136,7 @@ margin-left: 10px;
 .content-section-heading h3{
   font-size: 1rem;
     text-transform: uppercase;
-    color: #5D9FFF;
+    color: #00418D;
     margin-bottom: 0;
 }
 .content-section-heading h2{
@@ -142,12 +146,12 @@ margin-left: 10px;
 }
 .row{
   display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .rowleft{
   flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 40%;
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -157,51 +161,52 @@ margin-left: 10px;
 .profileimg{
   margin-bottom: 3rem;
   margin-top: 3rem;
-  float: left
 }
 
 .roeright{
   flex: 0 0 50%;
-  max-width: 50%;
+  max-width: 60%;
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
 }
-.rightname{
+.rightprof{
   display: table;
     width: 100%;
-    border-top: #757575 1px solid;
+    background-color: #fff;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
-.rightrow{
-  display: table-row;
-  border-top: #757575 1px solid;
-  border-bottom: #757575 1px solid;
+.rightlist{
+    width: 100%;
+    display: table-row;
+    color: #333;
+}
+.cell1{
+  display: table-cell;
+    padding: 10px 0;
+    width: 30%;
 }
 .cell{
   display: table-cell;
-    border-bottom: #757575 1px solid;
     padding: 10px 0;
-}
-.profImg{
     width: 70%;
-    height: 70%;
-    padding: 20px;
+    text-align: left;
 }
-
 
 .myskill{
-    padding-bottom: 7.5rem;
-    text-align: center
+  padding-bottom: 7%;
+  text-align: center;
+  background-color: #f6f6f6;
 }
 .myskill ul{
-  max-width: 900px;
+  max-width: 800px;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: 3rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -214,17 +219,18 @@ margin-left: 10px;
     margin-left: auto;
 }
 .skilltop{
-  font-size: 1rem;
     text-transform: uppercase;
-    color: #ecb807;
+    color: #5b2c00;
     margin-bottom: 0;
     font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 45px;
+    font-family: inherit;
+    line-height: 1.1;
 }
-.slillbottom{
-  font-size: 3rem;
-  margin-bottom: 3rem;
-  font-weight: 700;
-}
+
 .aaa{
   display: inline-block;
   background: #eee;
@@ -236,11 +242,14 @@ margin-left: 10px;
 
 
 .workport{
-  padding-bottom: 7.5rem;
-  text-align: center
+  padding-bottom: 7%;
+  text-align: center;
+  background: url(../image/so-white.png);
+  
 }
-.workport hr{
+hr{
   width: 60px;
+  border-color: rgb(47, 147, 123);
 }
 .workcontent{
   max-width: 960px;
@@ -251,8 +260,9 @@ margin-left: 10px;
     margin-left: auto;
 }
 .worktop{
-  font-size: 24px;
-  margin-bottom: 3rem;
+  font-size: 45px;
+  padding-top: 5%;
+  padding-bottom: 2%;
   font-weight: 700;
 }
 .Profilerow{
@@ -302,8 +312,10 @@ margin-left: 10px;
 
 .contact{
   background-color: #f8f9fa;
-    text-align: center;
-    color:black;
+  text-align: center;
+  color:black;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 .contactist{
   width: 960px;
@@ -328,22 +340,53 @@ margin-left: 10px;
     line-height: 1.1;
     color: #5D9FFF;
 }
-.section-title hr{
-  width: 60px;
-  border-color: rgb(47, 147, 123);
-}
 
 
 .iconfooter{
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
   padding-left: 0;
-    list-style: none;
+  list-style: none;
+  background-color: #f8f9fa;
 }
 .iconfooter li{
   margin: 0 auto;
   display: inline-block;
 }
-.iconfooter a{
+.icon-git{
+  display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #24292e;
+    transition: background-color .15s ease-in-out;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.icon-git:hover{
+background-color: #AAAAAA;
+}
+.icon-qiita{
+  display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #55c500;
+    transition: background-color .15s ease-in-out;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.icon-qiita:hover{
+  background: #99FF99;
+}
+.icon-mail{
   display: block;
     height: 4rem;
     width: 4rem;
@@ -356,5 +399,18 @@ margin-left: 10px;
     color: #fff;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+.icon-mail:hover{
+  background: #CCFFFF;
+}
 
+.footer{
+  width: 100%;
+  background-color: #D3D3D3;
+  bottom: 0;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 50px 0;
+  color: #fff;
 }
