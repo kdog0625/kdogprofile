@@ -431,21 +431,7 @@ background-color: #AAAAAA;
   margin: 0 auto;
   padding: 40px;
 }
-.modal1{
-  display: none;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.modal2{
-  display: none;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.modal3{
+.modal{
   display: none;
   height: 100vh;
   position: fixed;
