@@ -1,13 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
-@media screen and (min-width:300px){
-  body{
-    color: #d9534f;
-  }
-}
+
 .menu-list{
   position: relative;
+  display: table;
 }
 .menu-toggle{
   position: fixed;
@@ -61,22 +58,23 @@ margin-left: 10px;
 
 .header{
   min-height: 30rem;
-    position: relative;
-    display: table;
-    width: 100%;
-    height: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    background-color: wheat;
-    background: url(../image/singapore.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #fff;
+  position: relative;
+  display: table;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: wheat;
+  background: url(../image/singapore.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 .container{
-  width: 970px;
+  width: 1266px;
   padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -110,6 +108,7 @@ margin-left: 10px;
     height: auto;
     background-color: #fff;
     position: relative;
+    display: table; 
 }
 .maincontainer{
   text-align: center;
