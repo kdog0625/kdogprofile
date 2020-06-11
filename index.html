@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="modal.js"></script>
 </head>
 
 <body> 
@@ -50,8 +51,8 @@
         <div class="mainsss">
           <div class="content-section-heading">
             <h3>プロフィール</h3>
-            <h2>自己紹介</h2>
-            <hr>
+            <!-- <h2>自己紹介</h2> -->
+            <!-- <hr> -->
           </div>
         <div class="row">
           <div class="rowleft">
@@ -63,7 +64,7 @@
            <div class="rightprof">
              <div class="rightlist">
                <div class="cell1">Name</div>
-               <div class="cell">イヌカイ　コウスケ</div>
+               <div class="cell">イヌカイ コウスケ</div>
              </div>
              <div class="rightlist">
               <div class="cell1">年齢</div>
@@ -87,7 +88,7 @@
   <div class="myskill" id="myskill">
     <div class="skillcontent">
       <h3 class="skilltop">My Skill</h3>
-      <hr>
+      <!-- <hr> -->
     </div>
       <ul>
         <li class="aaa">
@@ -118,13 +119,19 @@
           <p>AWS</p>
         </li>
         <li class="aaa">
+          <p>heroku</p>
+        </li>
+        <li class="aaa">
           <p>Haml</p>
         </li>
         <li class="aaa">
           <p>Scss</p>
         </li>
         <li class="aaa">
-          <p>github</p>
+          <p>Git</p>
+        </li>
+        <li class="aaa">
+          <p>GitHub</p>
         </li>
         <li class="aaa">
           <p>MOS Excel</p>
@@ -138,12 +145,11 @@
     <div class="workcontent">
       <h3 class="worktop">Portfolio & Works</h2>
     </div>
-    <hr>
-  
+    <!-- <hr> -->
     <div class="Profilerow">
       <div class="port-list">
         <div class="port1">
-          <a href="#" target="blank"><img src="image/KStargram.png" class="app_imgs" height="300px" width="300px"></a> 
+          <a href="" target="blank" class="js-modal-open1"><img src="image/KStargram.png" class="app_imgs" height="300px" width="300px"></a> 
         </div>
         <div class="port1-list">
           <h3>KStargram</h3>
@@ -151,13 +157,13 @@
       </div>
       <div class="port-list">
         <div class="port1">
-          <a href="#" target="blank"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
+          <a href="#" target="blank" class="js-modal-open2"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
         </div>
           <h3>フリマサイト</h3>
     </div>
     <div class="port-list">
       <div class="port1">
-        <a href="＃" target="blank"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
+        <a href="＃" target="blank" class="js-modal-open3"><img src="image/fremasite.png" class="app_img" height="300px" width="300px"></a>
       </div>
       <div class="port1-list">
         <h3>ポートフォリオサイト</h3>
@@ -172,7 +178,7 @@
       <div class="section-title">
         <h3>Contact</h3>
         <h2>お問い合わせ・SNS</h2>
-        <hr>
+        <!-- <hr> -->
       </div>
     </div>
       <div class="contact-list">
@@ -193,5 +199,112 @@
   <div class="footer">
     <i class="fa fa-copyright">2020 kdog0625</i>
   </div>
+  
+<div class="modal js-modal1">
+    <div class="modal__bg js-modal-close"></div>
+    <div class="modal__content">
+    <div class="modal-list">
+      <div class="close-button">
+        <a class="js-modal-close close-item" href=""><i class="fas fa-times"></i></a>
+     </div>
+      <h3>KStargram</h3>
+      <table class="table">
+        <tbody>
+          <tr class="url">
+            <th>URL</th>
+            <td>
+              <a href="＃" target="blank">https://kabukipedir.com/</a>
+            </td>
+          </tr>
+          <tr class="desc">
+            <th>説明</th>
+            <td>
+             ファッションコーディネートアプリになります。
+            </td>
+          </tr>
+          <tr class="tech">
+            <th>使用言語</th>
+            <td>
+              HTML・CSS・Ruby・Ruby on Rails・JavaScript・jQuery・SQL・Git・ GitHub
+              Haml・SCSS・heroku
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+        <!-- <a class="js-modal-close" href="">閉じる</a> -->
+    </div><!--modal__inner-->
+</div><!--modal-->
+
+<div class="modal js-modal2">
+  <div class="modal__bg js-modal-close"></div>
+  <div class="modal__content">
+  <div class="modal-list">
+    <div class="close-button">
+      <a class="js-modal-close close-item" href=""><i class="fas fa-times"></i></a>
+   </div>
+    <h3>フリマサイトのクローンサイト</h3>
+    <table class="table">
+      <tbody>
+        <tr class="url">
+          <th>URL</th>
+          <td>
+            <a href="＃" target="blank">http://18.179.144.116/</a>
+          </td>
+        </tr>
+        <tr class="desc">
+          <th>説明</th>
+          <td>
+            フリマサイトのクローンサイトになります。
+          </td>
+        </tr>
+        <tr class="tech">
+          <th>使用言語</th>
+          <td>
+            HTML・CSS・Ruby・Ruby on Rails・JavaScript・jQuery・SQL・Git・ GitHub
+              Haml・SCSS・AWS
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div><!--modal__inner-->
+</div><!--modal-->
+
+<div class="modal js-modal3">
+  <div class="modal__bg js-modal-close"></div>
+  <div class="modal__content">
+    <a class="js-modal-close" href=""><i class="material-icons"></i></a>
+  <div class="modal-list">
+    <div class="close-button">
+      <a class="js-modal-close close-item" href=""><i class="fas fa-times"></i></a>
+   </div>
+    <h3>ポートフォリオサイト</h3>
+    <table class="table">
+      <tbody>
+        <tr class="url">
+          <th>URL</th>
+          <td>
+            <a href="＃" target="blank">https://kabukipedir.com/</a>
+          </td>
+        </tr>
+        <tr class="desc">
+          <th>説明</th>
+          <td>
+            自己紹介用のポートフォリオサイトです
+          </td>
+        </tr>
+        <tr class="tech">
+          <th>使用言語</th>
+          <td>
+            HTML・CSS・JavaScript・jQuery・Git・ GitHub
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+      
+  <!--modal__inner-->
+</div><!--modal-->
 </body>
 </html>
