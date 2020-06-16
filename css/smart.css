@@ -86,7 +86,7 @@
   }
   
   .container{
-    max-width: 960px;
+    max-width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -178,6 +178,11 @@
   .profileimg{
     margin-bottom: 3rem;
     margin-top: 3rem;
+  }
+
+  .profImgs{
+    width: 100%;
+    height: auto;
   }
   
   .roeright{
@@ -343,7 +348,8 @@
   }
   
   .contactist{
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -369,7 +375,8 @@
   }
   
   .contact-list{
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -448,6 +455,7 @@
   
   
   .footer{
+    max-width: 960px;
     width: 100%;
     background-color: #f6f6f6;
     bottom: 0;
