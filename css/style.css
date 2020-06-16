@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -9,20 +10,21 @@ html {
   position: relative;
   display: table;
 }
+
 .menu-toggle{
   position: fixed;
-    right: 15px;
-    top: 15px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    /* background: rgba(52, 58, 64, .5); */
-    background-color: gray;
-    line-height: 50px;
-    z-index: 999;
-    opacity: 0.7;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: gray;
+  line-height: 50px;
+  z-index: 999;
+  opacity: 0.7;
 }
+
 .sidebar-nav{
   display: none;
   position: absolute;
@@ -31,35 +33,38 @@ html {
   transition: all .4s ease 0s;
   position: fixed;
   transform: translateY( 100% );
-    transition: transform .4s;
+  transition: transform .4s;
   height: 100vh;
-    z-index: 2;
-    transform: translateX(250px);
-    background-color: gray;
-    border-left: 1px solid rgba(255, 255, 255, .1);
-    opacity: 0.7;
+  z-index: 2;
+  transform: translateX(250px);
+  background-color: gray;
+  border-left: 1px solid rgba(255, 255, 255, .1);
+  opacity: 0.7;
 }
+
 .sidebar-list{
   font-size: 1.2rem;
-    background: rgba(52, 58, 64, .1);
-    line-height: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    margin-bottom: 10px;
-    color: #3B3C3D;
+  background: rgba(52, 58, 64, .1);
+  line-height: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  color: #3B3C3D;
 }
+
 .sidebar-list:hover{
   background-color:black;
 }
+
 .sidebar-list a{
-text-decoration: none;
-color: #fff;
-margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
 }
 
+
 .header{
-  /* min-height: 30rem; */
   position: relative;
   min-width: 100%;
   margin: 0 auto;
@@ -76,31 +81,33 @@ margin-left: 10px;
   color: #fff;
   box-sizing: border-box;
 }
+
 .container{
   max-width: 960px;
   padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
 }
+
 .conte{
   padding: 15% 0 18% 0;
   text-align: center;
- 
 } 
+
 .page-title{
   text-transform: none;
   font-size: large;
   text-transform: none;
   font-size: 50px;
   margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
-    margin: .67em 0;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin: .67em 0;
 }
 
 
@@ -108,10 +115,11 @@ margin-left: 10px;
   color: #ecb807;
   padding-top: 20px;
   min-width: 100%;
-    height: auto;
-    background-color: #fff;
-    position: relative;
+  height: auto;
+  background-color: #fff;
+  position: relative;
 }
+
 .maincontainer{
   text-align: center;
   width: 100%;
@@ -120,22 +128,24 @@ margin-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .mainlist{
   display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
+
 .mainsss{
   margin-left: auto;
   margin-right: auto;
   flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+  max-width: 83.333333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .content-section-heading h3{
@@ -145,20 +155,23 @@ margin-left: 10px;
   color: #333;
   margin-bottom: 0;
 }
+
 .row{
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
 }
+
 .rowleft{
   flex: 0 0 50%;
-    max-width: 40%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+  max-width: 40%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
+
 .profileimg{
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -173,29 +186,34 @@ margin-left: 10px;
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .rightprof{
   display: table;
-    width: 100%;
-    background-color: #fff;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
+
 .rightlist{
   width: 100%;
   display: table-row;
   color: #333;
 }
+
 .cell1{
   display: table-cell;
   padding: 10px 0;
   width: 30%;
 }
+
 .cell{
   display: table-cell;
   padding: 10px 0;
   width: 70%;
   text-align: left;
 }
+
 
 .myskill{
   padding-bottom: 7%;
@@ -204,6 +222,7 @@ margin-left: 10px;
   margin: 0 auto;
   width: 100%;
 }
+
 .myskill ul{
   max-width: 800px;
   width: 100%;
@@ -213,6 +232,7 @@ margin-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .skillcontent{
   max-width: 960px;
   width: 100%;
@@ -221,6 +241,7 @@ margin-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .skilltop{
   text-transform: uppercase;
   color: #5b2c00;
@@ -242,16 +263,14 @@ margin-left: 10px;
   color:#5b2c00;
 }
 
+
 .workport{
   text-align: center;
   background: url(../image/so-white.png);
   margin: 0 auto;
   width: 100%;
 }
-hr{
-  width: 60px;
-  border-color: #5D9FFF;
-}
+
 .workcontent{
   max-width: 960px;
   width: 100%;
@@ -260,17 +279,20 @@ hr{
   margin-right: auto;
   margin-left: auto;
 }
+
 .worktop{
   font-size: 45px;
   padding-top: 5%;
   padding-bottom: 2%;
   font-weight: 700;
 }
+
 .Profilerow{
   display: flex;
   margin-top:3rem;
   margin-bottom:3rem;
 }
+
 .port-list{
   width: 33.3333333333%;
   margin-left: auto;
@@ -279,6 +301,7 @@ hr{
   padding: 0 .75rem;
   min-height: 1px;
 }
+
 .port1{
   overflow: hidden;
   height: 230px;
@@ -287,9 +310,11 @@ hr{
   margin-right: 15px;
   margin-left: 15px;
 }
+
 .port1:hover{
   transform: scale(1.1, 1.1);
 }
+
 .port1 img{
   position: relative;
   top: 50%;
@@ -300,16 +325,6 @@ hr{
   cursor: pointer;
   border: 1px solid #aaa;
   float: left;
-}
-.port-list h3{
-  font-size: 24px;
-  text-align: center;
-  margin-top: 20px;
-  color: #424242;
-  font-family: "Roboto", sans-serif;
-  margin-right: 15px;
-  margin-left: 15px;
-  font-weight: bold;
 }
 
 
@@ -323,6 +338,7 @@ hr{
   height: auto;
   margin: 0 auto;
 }
+
 .contactist{
   width: 960px;
   padding-right: 15px;
@@ -330,12 +346,14 @@ hr{
   margin-right: auto;
   margin-left: auto;
 }
+
 .section-title{
   text-align: center;
   font-size: 45px;
   margin-bottom: 80px;
   font-weight: normal;
 }
+
 .section-title h3{
   text-align: center;
   font-size: 45px;
@@ -362,10 +380,12 @@ hr{
   background-color: #f6f6f6;
   text-align: center;
 }
+
 .iconfooter li{
   margin: 0 auto;
   display: inline-block;
 }
+
 .icon-git{
   display: block;
   height: 4rem;
@@ -380,9 +400,11 @@ hr{
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 .icon-git:hover{
-background-color: #AAAAAA;
+  background-color: #AAAAAA;
 }
+
 .icon-qiita{
   display: block;
   height: 4rem;
@@ -397,26 +419,30 @@ background-color: #AAAAAA;
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 .icon-qiita:hover{
   background: #99FF99;
 }
+
 .icon-mail{
   display: block;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem;
-    font-size: 1.5rem;
-    background-color: #5D9FFF;
-    transition: background-color .15s ease-in-out;
-    border-radius: 50%;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
-    color: #fff;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #5D9FFF;
+  transition: background-color .15s ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+  color: #fff;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
+
 .icon-mail:hover{
   background: #CCFFFF;
 }
+
 
 .footer{
   width: 100%;
