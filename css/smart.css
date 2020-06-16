@@ -503,7 +503,6 @@
   }
   .modal-list{
     width: 100%;
-    margin-bottom: 30px;
     height: 100vh;
     overflow: scroll;
   }
