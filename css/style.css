@@ -1,3 +1,6 @@
+/* PC用デザイン */
+@media screen and (min-width: 481px) {
+
 html {
   scroll-behavior: smooth;
 }
@@ -550,4 +553,5 @@ td{
 td a{
   color: #ab363b;
   text-decoration: none;
+}
 }
