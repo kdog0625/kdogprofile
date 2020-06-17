@@ -451,7 +451,6 @@
   
   
   .footer{
-    max-width: 960px;
     width: 100%;
     background-color: #f6f6f6;
     bottom: 0;
@@ -462,7 +461,7 @@
     color: #343a40;
     margin: 0 auto;
   }
-  
+
   .contenta{
     margin: 0 auto;
     padding: 40px;
